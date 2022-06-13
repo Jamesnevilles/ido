@@ -14,7 +14,7 @@
             "arguments": [1000000000000000000, 600],
             "send": true,
             "outfile": "deploy-devnet.interaction.json"
-            "chain": "D",
+            "chain": "D"
         }
      }
 }

@@ -1,14 +1,14 @@
 {
     "configurations": {
         "default": {
-            "proxy": "https://devnet-api.elrond.com",
+            "proxy": "https://devnet-gateway.elrond.com",
             "chainID": "D"
         }
     },
     "contract":{
         "deploy":{
             "verbose": true,
-            "bytecode": "output/ping-pong.wasm",
+            "bytecode": "output/elrond-pack-presale.wasm",
             "recall-nonce": true,
             "pem": "../../wallet/wallet-owner.pem",
             "gas-limit": 59999999,

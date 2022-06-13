@@ -14,7 +14,7 @@
             "gas-limit": 59999999,
             "arguments": [1000000000000000000, 600],
             "send": true,
-            "outfile": "deploy-testnet.interaction.json"
+            "outfile": "deploy-devnet.interaction.json"
         }
      }
 }

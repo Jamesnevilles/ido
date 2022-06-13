@@ -1,5 +1,10 @@
 {
-    "configurations": 
+    "configurations": {
+        "default": {
+            "proxy": "https://devnet-api.elrond.com",
+            "chainID": "D"
+        }
+    },
     "contract":{
         "deploy":{
             "verbose": true,

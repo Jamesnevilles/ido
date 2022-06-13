@@ -8,7 +8,6 @@
     "contract":{
         "deploy":{
             "verbose": true,
-            "bytecode": "output/ido.wasm",
             "recall-nonce": true,
             "pem": "../../wallet/wallet-owner.pem",
             "gas-limit": 59999999,

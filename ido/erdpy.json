@@ -2,7 +2,7 @@
     "configurations": {
         "default": {
             "proxy": "https://devnet-api.elrond.com",
-            "chainID": "D"
+            "chainID": "T"
         }
     },
     "contract":{

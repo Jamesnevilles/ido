@@ -4,10 +4,10 @@ WALLET="./wallets/test.pem"
 ADDRESS=$(erdpy data load --key=address-devnet)
 ######################################################################
 
-TREASURY_WALLET="erd1q9elscglgsnvnjf828444kwya82t7sjgzxzltfyegta5s9muyrzscpux7s"
+TREASURY_WALLET="erd1m2qggj39gph5xytjmw0vrm0pnjt7mqjjwjvv7vmqejzcq2fl805qct9994"
 TREASURY_WALLET_HEX="0x$(erdpy wallet bech32 --decode ${TREASURY_WALLET})"
 
-TOKEN_ID="MEX-450e50"
+TOKEN_ID="TEST123-6260e4"
 TOKEN_ID_HEX="0x$(echo -n ${TOKEN_ID} | xxd -p -u | tr -d '\n')"
 
 EGLD_PRICE_RATE=1000000000000000000  # 1 EGLD

@@ -2,7 +2,6 @@
     "configurations": {
         "default": {
             "proxy": "https://devnet-api.elrond.com",
-            "chainID": "T"
         }
     },
     "contract":{
@@ -15,6 +14,7 @@
             "arguments": [1000000000000000000, 600],
             "send": true,
             "outfile": "deploy-devnet.interaction.json"
+            "chain": "D",
         }
      }
 }
